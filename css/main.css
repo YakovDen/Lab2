@@ -1,0 +1,61 @@
+body {    
+    margin:0px;
+    padding:0px;
+     }
+
+table{    
+    height:100%;
+    width: 100%;    
+}
+
+td{
+    width: 25%;
+    text-align: center;
+}
+
+#layer1{    
+    height: 70px;   
+    background-color: #FFCA8D;
+}
+
+#layer2{      
+    height: 70px;
+    background-color: #FFCA8D;
+}
+
+#layer3{    
+    height: 400px;
+    background-color: GreenYellow;
+}
+
+table#layer4 {    
+    width: 33%;
+}
+
+table#layer5{    
+    width: 33%; 
+}
+
+table#layer6{    
+    width: 34%;    
+}
+
+#layer7{    
+    height: 100px;
+    width: 25%;    
+}
+
+#layer8{    
+    height: 100px;
+    width: 25%;   
+}
+
+#layer9{    
+    height: 100px;
+    width: 25%;    
+}
+
+#layer10{    
+    height: 100px;
+    width: 25%;   
+}

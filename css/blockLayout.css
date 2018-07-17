@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/html-and-css-abstract-concept.png);
+  }
+ 
+#wrapper{
+    display: table;
+    width: 90%;
+    height: 100%;
+    outline: 1px solid #FF0000;
+    padding: 5px;
+    margin: 0 auto;
+    overflow: auto;
+
+}
+
+#header{
+    height: 80px;
+    background-color: #00FF00;
+    margin-bottom: 15px;   
+    -webkit-border-bottom-left-radius: 10px ;
+    -webkit-border-bottom-right-radius: 10px
+    
+}
+
+#menu{
+    position: fixed;
+    background: url(../img/tekstura-korichnevyy-fon-uzory.png) no-repeat center center; 
+    float: left;
+    width: 140px;
+    height: 100px;
+    max-width: 80%;
+    max-height: 100%;
+   
+    -webkit-border-radius: 10px;
+    opacity: 0.75;
+}
+
+
+a{
+   color: #FF0000;
+   position:relative;
+   bottom:-50px;
+   align-content: center;
+}
+P:first-letter {
+    font-family: 'Times New Roman', Times, serif; /* Гарнитура шрифта первой буквы */
+    font-size: 200%; /* Размер шрифта первого символа */
+    color: red; /* Красный цвет текста */
+}
+
+#text{
+    height: 80%;
+    background-color: #0000FF;
+    margin-bottom: 15px; 
+    width: 1070px;
+    margin-left: 160px;    
+}
+
+#footer{
+    height: 80px;
+    background-color: #C0C0C0;
+    margin-bottom: 15px;
+    text-align: center;
+   
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+}
